@@ -3,21 +3,34 @@ html {
     color: #f23d91;
     font-size: 14px;
     flex: auto;
+    background: linear-gradient(45deg, #FC466B, #3F5EFB);
+    margin: 5%;
+    padding: 5%;
                
 }
 header {
     background-color: chocolate;
     text-align: right;
     block-size: 100px;
+    background: linear-gradient(45deg, #FC466B, #3F5EFB);
+               
 }
 #title {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     color: rgb(216, 207, 207);
-    background-color: chocolate ;
+    background-color: #FC466B ;
+    text-shadow: 1px 1px 2px #FC466B, 0 0 1em #3F5EFB, 0 0 0.1em #3F5EFB;
+}
+article {
+    background-image:'assets/hybrid-MEr9r0S2YE8-unsplash';
 }
 .container {
-    flex-direction: column;
+    
+    max-width: 80%;
+}
+#about_me {
+    background-color: #3F5EFB ;
 }
 #description {
     color: rgb(216, 207, 207);
@@ -33,6 +46,7 @@ header {
    margin: auto;
    padding: 10%;
    border-radius: 10%;
+   max-width: 990%;
 }
 #number-label {
     color: rgb(216, 207, 207);
