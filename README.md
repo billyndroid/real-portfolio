@@ -9,7 +9,6 @@ drag and drop,
 crop images, 
 submit form will create a one of animation on first visit with a lesser effect following, 
 
+API - Prodigi.com used to order personalised and drop-shipped merch in low or high volume. 
+will be built using vanilla javascript then move on to building with React and libs (need to learn about).
 
-
-will be built using vanilla javascript then move on to building with React.
-will be using Prodigi API for merchendise page
