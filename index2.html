@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles/bootstrap.css" rel="stylesheet">
-    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300&amp;family=STIX+Two+Text&amp;display=swap" rel="stylesheet">
     <link href="styles/fullpage.min.css"/>
     <title>Portfolio</title>
@@ -14,23 +14,39 @@
     <main id="fullpage">
         <header>
         <nav>
-            <ul>
-              <button> <li><a href="#about_me>">About Me</a> </li> </button> 
-              <button> <li> <a href="#my_projects">My Projects</a> </li> </button> 
-              <button>  <li> <a href="#my_designs">My Designs</a> </li> </button> 
-              <button>  <li><a href="#merch">Merch</a></li> </button> 
-                <li></li>
-                <li></li>
-            </ul>
-            <img id="logo" alt="logo">
+            <div class="sidebar">
+                <a class="active" href="#home">Home</a>
+                <a href="#about_me>">About Me</a>
+                 <a href="#my_projects">My Projects</a>
+                    <a href="#my_designs">My Designs</a> 
+                    <a href="#merch">Merch</a>
+              </div>
+            <div class="container">
+            <img id="logo"  alt="logo" src="assets/logo.png" class="img-fluid">
         </nav>
     </header>
-        <div>
+    <div class="content">
             <article>
                 <h1 id="title">Welcome to My Portfolio</h1>
             </article>
-        </div>
+        
         <div>
+           
+        </div>
+        <div class="container2">
+            <h2>How many cats are hidden below?</h2>
+            <p>Click on the button to reveal cats.</p>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#hide_text">Click Here!</button>
+            <div id="hide_text" class="collapse">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+
+       
+
+         
+        <div style="background-image: url('assets/hybrid-MEr9r0S2YE8-unsplash.jpg');">
             <article>
                 <h2 id="about_me">About Me</h2>
                 <h3>A Little About My Journey</h3>
@@ -38,6 +54,7 @@
                     seeing how fragile things really were, I came to the conclusion that I had to adapt to a new way of living, that could change the way we operate within society going forward.
                     I invested in my own future and 
                 </p>
+            </div>
                 <p>
                     Looking to move into front-end web, web-app & possibly android development and starting at the beginning (okay, I did build a few websites pre-html5 and i-frames but didn’t keep up). 
                     I’ve just completed a deep-dive into HTML5 (inc. Bootstrap 5.1.1), and CSS (inc. SASS) 
@@ -123,7 +140,7 @@ page below uses the <a href="https://www.prodigi.com/"target="_blank" >Prodigi.c
 <textarea>
 
     </textarea><br>
-
+    <button type="button" class="btn-block">Submit Now!</button><br>
 	<input type="submit" id="submit" value="Submit Now!">
 </form>
 </div>
@@ -148,11 +165,15 @@ page below uses the <a href="https://www.prodigi.com/"target="_blank" >Prodigi.c
                   dropzone
                 </div>
               </div>
+            </div>
         <footer>
             <a href=https://github.com/billyndroid>Github</a>
             </div>
             </footer">
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="scripts/fullpage.min.js"></script>
 </body>
 </html>

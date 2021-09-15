@@ -1,37 +1,58 @@
 html {
-    background-color: firebrick ;
+    background-color: #BF4E6D ;
     color: #f23d91;
     font-size: 14px;
     flex: auto;
-    background: linear-gradient(45deg, #FC466B, #3F5EFB);
-    margin: 5%;
-    padding: 5%;
+   /* background: linear-gradient(45deg, #FC466B, #3F5EFB); */
+    margin: 1%;
+    padding: 1%;
                
 }
 header {
-    background-color: chocolate;
+    background-color: #BF4E6D;
     text-align: right;
     block-size: 100px;
-    background: linear-gradient(45deg, #FC466B, #3F5EFB);
+  /* background: linear-gradient(45deg, #FC466B, #3F5EFB);*/
                
+}
+#logo {
+    border-radius: 10%;
+    max-width: 10%;
+    height: auto;
 }
 #title {
     text-align: center;
     font-size: 40px;
     color: rgb(216, 207, 207);
-    background-color: #FC466B ;
+    background-color: #260205 ;
     text-shadow: 1px 1px 2px #FC466B, 0 0 1em #3F5EFB, 0 0 0.1em #3F5EFB;
+    
 }
 article {
     background-image:'assets/hybrid-MEr9r0S2YE8-unsplash';
+    border-radius: 10%;
 }
+
+    background-image: url('assets\hybrid-MEr9r0S2YE8-unsplash.jpg');
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
 .container {
-    
+    color: rgb(216, 207, 207);
+
     max-width: 80%;
 }
 #about_me {
-    background-color: #3F5EFB ;
+    background-color: #3E4459 ;
+    color: rgb(216, 207, 207);
 }
+
+
+
+
+
 #description {
     color: rgb(216, 207, 207);
     font-size: 16px;
@@ -116,3 +137,82 @@ footer {
             padding:10px;
             margin-top:7px;
 }
+#bg {
+    background-image: "assets/hybrid-MEr9r0S2YE8-unsplash";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: antiquewhite;
+    text-align: center;
+}
+/* CSS below cut from W3 schools */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #C9DFF2;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #260205;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #3E4459;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+/* adobe color css */
+/* Color Theme Swatches in Hex */
+.Business-travel-1-hex { color: #260205; }
+.Business-travel-2-hex { color: #BF4E6D; }
+.Business-travel-3-hex { color: #3E4459; }
+.Business-travel-4-hex { color: #C9DFF2; }
+.Business-travel-5-hex { color: #E9F1F2; }
+
+/* Color Theme Swatches in RGBA */
+.Business-travel-1-rgba { color: rgba(38, 2, 5, 1); }
+.Business-travel-2-rgba { color: rgba(191, 78, 108, 1); }
+.Business-travel-3-rgba { color: rgba(61, 68, 89, 1); }
+.Business-travel-4-rgba { color: rgba(201, 223, 242, 1); }
+.Business-travel-5-rgba { color: rgba(232, 241, 242, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Business-travel-1-hsla { color: hsla(354, 88, 7, 1); }
+.Business-travel-2-hsla { color: hsla(343, 46, 52, 1); }
+.Business-travel-3-hsla { color: hsla(224, 18, 29, 1); }
+.Business-travel-4-hsla { color: hsla(208, 61, 86, 1); }
+.Business-travel-5-hsla { color: hsla(185, 27, 93, 1); }
