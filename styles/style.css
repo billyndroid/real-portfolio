@@ -30,6 +30,25 @@ header {
 article {
 
 }
+#animate {
+  position: relative;
+  animation: logoslide 5s infinite;
+  animation-delay: 3s;
+  animation-iteration-count: inherit;
+  animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  animation-fill-mode: forwards;
+  animation-direction: alternate-reverse;
+}
+@keyframes logoslide {
+  from {left: -2000px;}
+  to {left: 0px;}
+  
+}
+@keyframes nameslide {
+  from {left: -2000px;}
+  to {left: 0px;}
+  
+}
 .carousel-inner img {
     width: 100%;
     height: 100%;
@@ -208,7 +227,7 @@ div.content {
   }
 }
 footer {
-    background-color:chocolate;
+    background-color: #E9F1F2;
     font-size: 12px;
             text-align:center;
             padding:10px;
