@@ -1,45 +1,113 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Survey Form</title>
-        <meta charset="UTF-8"/>
-        <link href="styles/bootstrap.css" rel="stylesheet">
-        <link href="styles/style.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300&amp;family=STIX+Two+Text&amp;display=swap" rel="stylesheet">
-        <link href="styles/fullpage.min.css"/>
-    </head>
-    <body>
-        <!--This snippet by https://www.digitalocean.com--> 
-        <main id="fullpage">
-            <div class="example-parent">
-                <div class="example-origin">
-                  <div
-                    id="draggable-1"
-                    class="example-draggable"
-                    draggable="true"
-                  >
-                    draggable
-                  </div>
-                </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/bootstrap.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300&amp;family=STIX+Two+Text&amp;display=swap" rel="stylesheet">
+    <link href="styles/fullpage.min.css"/>
+    
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <main id="fullpage">
+        <header>
+        <nav>
+            <div class="sidebar">
+                <a class="active fas fa-home" href="#home"> Home</a>
               
-                <div
-                  class="example-dropzone"
-                >
-                  dropzone
-                </div>
+                <a href="#about_me>">About Me</a>
+                 <a href="#my_projects">My Projects</a>
+                    <a href="#my_designs">My Designs</a> 
+                    <a href="#merch">Merch</a>
               </div>
+            <img id="logo"  alt="logo" src="assets/logo.png" class="img-fluid">
+        </nav>
+    </header>
+     <div class="container">
+    <div class="content">
             <article>
                 <h1 id="title">Welcome to My Portfolio</h1>
-                <section>
-                    <article>
-                        <div>
-                            <h1>TITLE</h1>
-                            <h2>Subtitle</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni pariatur ipsum, sequi omnis voluptates, totam voluptate veritatis error distinctio ipsa doloribus saepe deserunt aperiam ex dolores quod expedita soluta adipisci.</p>
-                        </div>
-                    </article>
-                </section>
-<p id="description">A cat survey, about cats. Tell us about your cats below:</p>
+            </article>
+        
+        <div>
+           
+        </div>
+        <div class="container">
+            <h2 class="display-5">How many cats are hidden below?</h2>
+            <p class="display-6">Click on the button to reveal cats.</p>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#hide_text">Click Here!</button>
+            <div id="hide_text" class="collapse">
+                <!-- INSERT RESPONSIVE PHOTO GALLERY TILED HERE Photos by Tudor Baciu,  Jae Park, Karina Vorozheeva, Alvan Nee, Willian Justen de Vasconcellos & Max Baskakov on Unsplash -->
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+
+       
+
+         
+        <div style="background-image: url('https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60');">
+            <article>
+                <h2 id="about_me">About Me</h2>
+                <h3 class="display-6">A Little About My Journey</h3>
+                <p class="card">During lockdown - like all of us - I had some free time. I decided to make the most of things and learn some new skills... 
+                    seeing how fragile things really were, I came to the conclusion that I had to adapt to a new way of living, that could change the way we operate within society going forward.
+                    I invested in my own future and 
+                </p>
+            </div>
+            <h3 class="display-6">What's Next?</h3>
+                <p class="card">
+                    Looking for work as a  front-end developer and starting at the beginning (okay, I did build a few websites pre-html5 and i-frames but didn’t keep up). 
+                    I’ve just completed a deep-dive into HTML5 (inc. Bootstrap 5.1.1), and CSS (inc. Bootstrap) 
+                    after recently completing the <a href="https://www.freecodecamp.org//certification/billythedroid/responsive-web-design"target="_blank" >Responsive Web Design</a>
+                    course (approx. 300hrs) at <a href="https://www.freecodecamp.org/"target="_blank" >Free Code Camp</a>. 
+                    I’m half-way through their  <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/" target="_blank" >Javascript-Alogrithms & Data Structures</a> course (approx. 300 hrs) 
+                    and will then move onto learning libraries, eg JSON, Jquery, and a framework, such as React.</p>
+            <h3 class="display-6">
+                My Resume
+            </h3><p class="card">
+                This website will be used as my resume in the hope of getting my foot in the door as a junior (I’m 47!). So, if you’re here because you’ve received a job application, I hope I can convince you to – at least – give me a try (that’s all I need). The <a href="#merch">Merch</a>
+page below uses the <a href="https://www.prodigi.com/"target="_blank" >Prodigi.com</a> API to bring you my designs (with optional personalisation options),  professionally printed, to your doorstep. 
+            </p>
+            <h3 class="display-6">Great Merch</h3>
+            <p class="card">
+                If you’re here to select some of my designs to be printed onto personalised items from our store, take a look at our <a href="#merch">Merch</a>
+ page below. 
+            </p>
+                </article>
+        </div>
+        <div>
+            <article>
+                <h2 id="my_projects">My Projects</h2>
+                <h3>Click Below to View The Projects I've Built So Far {need gallery tiles here}</h3>
+            </article>
+        </div>
+        <div>
+            <article>
+                <h2 id="my_designs">My Designs</h2>
+                <h3>T-shirt & Mug, Design</h3>
+                <h4>Tools: Adobe CC inc. Illustrator & Photoshop </h4>
+                <P>Using dye-sublimation and heat-transfer methods (dependent on requirements) to print original designs (with optional personalisation) to T=shirts (100% polyester) and mugs. </P>
+                <p>Having turned my own spare bedroom into a sweat-shop one summer in the hopes of growing a small printing business, having bought all necessary equipment and versed myself in the fine arts of dye sublimation and heat-pressing, it was an obvious choice (to avoid the very hot work of heat-pressing in summer) when (searching for local front-end development opportunites) I found that a local company  <a href="https://www.prodigi.com/"target="_blank" >Prodigi.com</a> had built an API to fulfil their mission as the world's leading print on demand platform. </p>
+                <h3>Motion Design</h3>
+                <h4>Tools: Adobe CC inc. Illustrator, Photoshop, After Effects, Premiere Pro, & Animate</h4>
+           <p>Animated openers, titles, captions, end-credits, and more - using the latest kinetic text methods and & industry standard software. </p> 
+            </article>
+        </div>
+        <div>
+            <article>
+                <h2 id="merch">Merch</h2>
+                <h3>Order Merchendise Through Our Secure Checkout</h3>
+            </article>
+        </div>
+        <div>
+        <article>
+        <p id="description">Sign-up to our newsletter below for advanced details and offers</p>
 <div class="container">
 <form id="survey-form">
     <label for="name" id="name-label">What is your name?</label>
@@ -81,26 +149,40 @@
 <textarea>
 
     </textarea><br>
-
+    <button type="button" class="btn-block">Submit Now!</button><br>
 	<input type="submit" id="submit" value="Submit Now!">
 </form>
 </div>
             </article>
-           <section>
-               <article>
-                   <div>
-                       <h1>TITLE</h1>
-                       <h2>Subtitle</h2>
-                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni pariatur ipsum, sequi omnis voluptates, totam voluptate veritatis error distinctio ipsa doloribus saepe deserunt aperiam ex dolores quod expedita soluta adipisci.</p>
-                   </div>
-               </article>
-           </section>
-          <footer>
-          <a href=https://github.com/billyndroid>Github</a>
-          </div>
-          </footer">
-        </main>
-        <script src="scripts/fullpage.min.js"></script>
-
-    </body>
+        </div>
+          <!--This snippet by https://www.digitalocean.com--> 
+          <main id="fullpage">
+            <div class="example-parent">
+                <div class="example-origin">
+                  <div
+                    id="draggable-1"
+                    class="example-draggable"
+                    draggable="true"
+                  >
+                    draggable
+                  </div>
+                </div>
+              
+                <div
+                  class="example-dropzone"
+                >
+                  dropzone
+                </div>
+              </div>
+            </div>
+        
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts/fullpage.min.js"></script>
+    <footer>
+        <a href=https://github.com/billyndroid>Github</a>
+        </div>
+        </footer">
+</body>
 </html>
